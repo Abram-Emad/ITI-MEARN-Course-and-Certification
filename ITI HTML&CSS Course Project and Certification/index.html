@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Start Header -->
+  <div class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo">Home Page</a>
+      <div class="links-container">
+        <ul class="main-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#hobbies">My Hobbies</a></li>
+          <li><a href="#birthday">My Birthday</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#slider-imges">Slider</a></li>
+          <li><a href="#cv">My CV</a></li>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <!-- Start Home -->
+  <div class="home">
+    <div class="container">
+      <div class="text">
+        <h1>Welcome, to my first project in the iti mearn course</h1>
+        <p>Here Iam gonna share everything about my life. Books Iam reading, My Hobbies, My Birthday and My CV</p>
+      </div>
+      <div class="image">
+        <img src="./imgs/events.png">
+      </div>
+      <a href="#hobbies" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+    </div>
+  </div>
+  <!-- End Home -->
+
+  <!-- Start My Hobbies -->
+  <div class="hobbies" id="hobbies">
+    <h2 class="main-title">My Hobbies</h2>
+    <div class="hobbies-text">
+      <p>let me share some of my hobbies with you like web design, backend devoloping and painting</p>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-01.png" alt="image one" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-02.png" alt="image two" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="imgs/gallery-03.jpg" alt="image three" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End My Hobbies -->
+
+  <!-- Start My Birthday -->
+  <div class="birthday" id="birthday">
+    <div class="dots dots-up"></div>
+    <div class="dots dots-down"></div>
+    <h2 class="main-title">My Birthday</h2>
+      <div class="birth-contact" id="contact">
+        <div class="form">
+          <div class="content">
+            <h2>Make a wish for my birthday</h2>
+            <form action="thanks-page.html" method="get">
+              <input class="input" type="text" placeholder="Your Name" name="name" />
+              <input class="input" type="email" placeholder="Your Email" name="email" />
+              <textarea class="input" placeholder="What you wishing for my birthday" name="message"></textarea>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- End My Birthday -->
+
+  <!-- Start Contact Us -->
+  <div class="contact" id="contact">
+    <div class="image">
+      <div class="content">
+        <h2>You Can Contact Us Anytime</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maiores nulla minus asperiores architecto
+          ullam similique! Nam inventore iste laudantium, reiciendis modi nobis suscipit iure odio in? Repellat, nam
+          ipsum.</p>
+        <ul class="social">
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form">
+      <div class="content">
+        <h2>Contact Us Anytime</h2>
+        <form  action="thanks-page.html" method="get">
+          <input class="input" type="text" placeholder="Your Name" name="name" />
+          <input class="input" type="email" placeholder="Your Email" name="email" />
+          <input class="input" type="text" placeholder="Your Phone" name="mobile" />
+          <textarea class="input" placeholder="Tell Us About Your Needs" name="message"></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Us -->
+
+  <!-- Start Slider -->
+  <div class="slider-imges" id="slider-imges">
+    <h2>Slider</h2>
+    <h3>Places I would like to visit</h3>
+    <div class="container">
+      <div class="CSSgal">
+        <s id="s1"></s> 
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>      
+        <div class="slider">
+          <div>
+            <img src="./imgs/cities-in-america.jpg" alt="">
+            <h2>united states of america</h2>
+            </div>
+          <div>
+            <img src="./imgs/France.jpg" alt="">
+            <h2>France</h2>
+          </div>
+          <div>
+            <img src="./imgs/London_Skyline_(125508655).jpeg" alt="">
+            <h2>London</h2>
+          </div>
+          <div>
+            <img src="./imgs/sw.jpg" alt="">
+            <h2>Swisra</h2>
+          </div>
+        </div>
+        
+        <div class="prevNext">
+          <div><a href="#s4"><i class="fas fa-chevron-left"></i></a><a href="#s2"><i class="fas fa-chevron-right"></i></a></div>
+          <div><a href="#s1"><i class="fas fa-chevron-left"></i></a><a href="#s3"><i class="fas fa-chevron-right"></i></a></div>
+          <div><a href="#s2"><i class="fas fa-chevron-left"></i></a><a href="#s4"><i class="fas fa-chevron-right"></i></a></div>
+          <div><a href="#s3"><i class="fas fa-chevron-left"></i></a><a href="#s1"><i class="fas fa-chevron-right"></i></a></div>
+        </div>
+        <div class="bullets">
+          <a href="#s1">1</a>
+          <a href="#s2">2</a>
+          <a href="#s3">3</a>
+          <a href="#s4">4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider -->
+
+  <!-- Start My CV -->
+  <div class="cv" id="cv">
+    <h2 class="main-title">My CV</h2>
+    <div class="container">
+      <div class="box">
+        <img src="imgs/4086679.png" alt="" />
+        <h3>Abram Emad</h3>
+        <ul class="social">
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text">
+          My name is Abram Emad, an engineer specializing in electrical and computer engineering, and a lover of
+          programming
+        </p>
+      </div>
+      <div class="skills">
+        <div class="skill">
+          <h3>HTML <span>80%</span></h3>
+          <div class="the-progress">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>CSS <span>85%</span></h3>
+          <div class="the-progress">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Sass <span>70%</span></h3>
+          <div class="the-progress">
+            <span style="width: 70%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript <span>70%</span></h3>
+          <div class="the-progress">
+            <span style="width: 70%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>TypeScript <span>70%</span></h3>
+          <div class="the-progress">
+            <span style="width: 70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End My CV -->
+
+  <!-- Start Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="box">
+        <h3>Abram Emad</h3>
+        <ul class="social">
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
+        </p>
+      </div>
+      <div class="box">
+        <ul class="links">
+          <li><a href="#">Important Link 1</a></li>
+          <li><a href="#">Important Link 2</a></li>
+          <li><a href="#">Important Link 3</a></li>
+          <li><a href="#">Important Link 4</a></li>
+          <li><a href="#">Important Link 5</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <div class="line">
+          <i class="fas fa-map-marker-alt fa-fw"></i>
+          <div class="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+        </div>
+        <div class="line">
+          <i class="far fa-clock fa-fw"></i>
+          <div class="info">Business Hours: From 10:00 To 18:00</div>
+        </div>
+        <div class="line">
+          <i class="fas fa-phone-volume fa-fw"></i>
+          <div class="info">
+            <span>+20123456789</span>
+            <span>+20198765432</span>
+          </div>
+        </div>
+      </div>
+      <div class="box footer-gallery">
+        <img src="imgs/gallery-01.png" alt="" />
+        <img src="imgs/gallery-02.png" alt="" />
+        <img src="imgs/gallery-03.jpg" alt="" />
+        <img src="imgs/gallery-04.png" alt="" />
+        <img src="imgs/gallery-05.jpg" alt="" />
+        <img src="imgs/gallery-06.png" alt="" />
+      </div>
+    </div>
+    <p class="copyRight">Created By Abram Emad</p>
+  </div>
+  <!-- End Footer -->
+
+</body>
+
+</html>
