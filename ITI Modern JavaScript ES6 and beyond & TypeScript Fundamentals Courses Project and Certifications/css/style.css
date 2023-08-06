@@ -1,0 +1,119 @@
+/* - Start Global Rules - */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  margin: 0px 0 20px 30px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px #b1b1b1 inset;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3C87FF;
+}
+
+::selection {
+  color: #fff;
+  background: #3C87FF;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #01031b, #162540, #23446a, #2a6796, #298cc3, #20a1d7, #12b6e9, #00cbfa, #00d2f4, #00d7ec, #00dde0, #00e1d3);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* - End Global Rules - */
+
+/* - Start task number six - */
+.tips {
+  max-width: 405px;
+  padding: 30px;
+  margin: 137px auto;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+button#displayTipsBtn,
+button#displayTipsIntervalBtn {
+  opacity: 0.9;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  padding: 5px 10px;
+  transition: transform 0.25s ease;
+  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+}
+
+/* - End task number six - */
+
+/* - Start Responsive - */
+
+/* - Small - */
+@media (max-width: 767px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .tips {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* - Medium - */
+@media (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* - Large - */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+
+}
+
+/* - End Responsive - */
