@@ -52,7 +52,7 @@ class Student {
 // 5 - print student data in the console using template literals in this format: {Std_name} is a student in faculty of {fac_name} in university {Uni_name}
 const student1 = new Student("Abram Emad", "High Institute for Engineering & Technology - New Minia", "Electrical Engineering", 85);
 
-console.log(`${"std_"}${student1.name} ${`is a student in faculty of`} ${"fac_"}${student1.faculty} ${`in university`} ${"Uni_"}${student1.university}`);
+console.log(`${"{std_"}${student1.name}${"}"} ${`is a student in faculty of`} ${"{fac_"}${student1.faculty}${"}"} ${`in university`} ${"{Uni_"}${student1.university}${"}"}`);
 
 /* 
    6 - Make a page that displays a tip for user every 3 seconds, as the following:
