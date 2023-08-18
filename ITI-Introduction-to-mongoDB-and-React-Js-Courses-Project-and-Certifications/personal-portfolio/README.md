@@ -8,6 +8,10 @@ Built using:
 
 In the /personal-portfolio, you can run:
 
+### `npm install`
+
+this command should be used to install all the libraries used in this project.\
+
 ### `npm start`
 
 Runs the app in the development mode.\
